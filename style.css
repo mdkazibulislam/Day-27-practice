@@ -1,0 +1,220 @@
+/* defult css */
+*{
+    margin: 0;
+    padding: 0;
+}
+.fixed-witdh{
+    width: 1300px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+
+
+/* main css */
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header{
+    background:#16a085;
+    padding: 10px;
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+..header-left{}
+.header-left img{
+    width: 80px;
+    padding-left: 20px;
+}
+.header-right{
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+.header-right ul{
+
+}
+.header-right ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.header-right ul li a{
+    line-height: 3;
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+/* banner-section */
+.banner-section{
+    background-image: url(https://i.ibb.co/6y6qcgm/header-bg01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px;
+}
+.banner{
+    text-align: center;
+    color: #fff;
+}
+.banner h1{
+    text-transform: uppercase;
+    
+}
+.banner p{
+    margin-top: 20px;
+}
+.banner a{
+    width: 130px;
+    height: 30px;
+    border: 1px solid #fff;
+    color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+    line-height: 25px;
+    text-decoration: none;  
+}
+
+/* service-section */
+
+.service-section{
+    border-bottom: 2px solid #0dbf9b;
+    padding-bottom: 100px;
+}
+.service-1{
+    text-align: center;
+    margin-top: 50px;
+}
+.service-1 h3{
+    font-size:25px; 
+}
+.service-1 p{
+    margin-top: 20px;
+}
+
+.service-2{
+    text-align: center;
+    margin-top: 70px;
+}
+.service-box{
+    width: 22%;
+    float: left;
+    margin-left: 30px;
+}
+.service-box span{
+    font-size: 30px;
+    color: #0dbf9b;
+}
+.service-box h3{
+    margin-top: 20px;
+}
+.service-box p{
+
+    margin-top: 10px;
+}
+
+/* about-section */
+
+.about-section{
+    margin-top: 50px;
+    text-align: center;
+}
+.about-1{}
+.about-1 h3{
+    font-size:25px;
+}
+.about-1 p{
+    margin-top: 20px;
+}
+
+.about-2{
+    margin-top: 50px;
+    padding:0 20px;
+}
+.about-img{
+    width: 47%;
+}
+.about-img img{}
+.about-content{
+    width: 47%;
+    float: right;
+    margin-top: -400px;
+    text-align: left;
+}
+.about-content h4{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.about-content p{
+    margin-top: 10px;
+}
+
+/* contact-section */
+
+.contact-section{}
+.contact-us{
+    margin-top: 50px;
+    text-align: center;
+}
+.contact-us h3{
+    font-size: 25px;
+}
+.contact-us p{
+    margin-top: 20px;
+}
+
+.contact-service{}
+.contact-1{
+    width: 31%;
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.contact-1 span{
+    color: #0bbf9a;
+}
+.contact-1 h4{
+    margin-top: 20px;
+}
+.contact-1 p{
+    margin-top: 5px;
+}
+
+/*bottom-section */
+
+.bottom-section{
+    background: #0bbf9a;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+.icon-item{
+    text-align: center;
+}
+.icon-item li{
+    list-style: none;
+    display: inline-block;
+}
+.icon-item li a{
+    margin-left: 20px;
+    color: #fff;
+}
+
+
+
+/* footer-section */
+
+.footer-section{
+    background: #000;
+    padding: 15px 0;
+}
+.footer{
+    text-align: center;
+}
+.footer p{
+    color: #fff;
+}
